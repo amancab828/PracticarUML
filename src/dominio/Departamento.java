@@ -14,6 +14,7 @@ public class Departamento {
 	
 	public void agregarEmpleado(Empleado e) {
 		empleados.add(e);
+		e.setDepartamento(this);
 	}
 	
 	public double calcularCosteTotal() {

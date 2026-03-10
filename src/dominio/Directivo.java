@@ -7,8 +7,8 @@ public class Directivo extends Empleado implements Incentivable{
 	private double salarioBase;
 	private double bonus;
 	
-	public Directivo(int id, String nombre, TipoContrato contrato, Departamento departamento, double salarioBase, double bonus) {
-		super(id, nombre, contrato, departamento);
+	public Directivo(int id, String nombre, TipoContrato contrato, double salarioBase, double bonus) {
+		super(id, nombre, contrato);
 		this.salarioBase = salarioBase;
 		this.bonus = bonus;
 	}

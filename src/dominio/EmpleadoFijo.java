@@ -6,8 +6,8 @@ import interfaces.Incentivable;
 public class EmpleadoFijo extends Empleado implements Incentivable{
 	private double salarioBase;
 	
-	public EmpleadoFijo(int id, String nombre, TipoContrato contrato, Departamento departamento, double salarioBase) {
-		super(id, nombre, contrato, departamento);
+	public EmpleadoFijo(int id, String nombre, TipoContrato contrato, double salarioBase) {
+		super(id, nombre, contrato);
 		this.salarioBase = salarioBase;
 	}
 	

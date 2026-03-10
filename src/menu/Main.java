@@ -15,9 +15,9 @@ public class Main {
         gestor.agregarDepartamento(informatica);
         gestor.agregarDepartamento(recursosHumanos);
 
-        Empleado e1 = new EmpleadoFijo(1, "Ana", TipoContrato.FIJO, recursosHumanos, 2000);
-        Empleado e2 = new EmpleadoPorHoras(2, "Luis", TipoContrato.TEMPORAL, informatica, 80, 15);
-        Empleado e3 = new Directivo(3, "Carlos", TipoContrato.FIJO, informatica, 3000, 500);
+        Empleado e1 = new EmpleadoFijo(1, "Ana", TipoContrato.FIJO, 2000);
+        Empleado e2 = new EmpleadoPorHoras(2, "Luis", TipoContrato.TEMPORAL, 80, 15);
+        Empleado e3 = new Directivo(3, "Carlos", TipoContrato.FIJO, 3000, 500);
 
         informatica.agregarEmpleado(e1);
         informatica.agregarEmpleado(e2);
